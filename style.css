@@ -3,7 +3,7 @@ body {
   background-color: #fdfaf6;
   margin: 0;
   padding: 0;
-  color: #028090;
+  color: #DE1F68;
 }
 
 .favorite-comic {
@@ -25,13 +25,13 @@ body {
 
 
 nav {
-  background-color: #7a3b3b; /* muted maroon */
+  background-color: #DE1F68; 
   padding: 1em;
   text-align: center;
 }
 
 nav a {
-  color: #fff8f0;
+  color: #F8B5EB;
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
@@ -78,7 +78,8 @@ main {
 }
 
 h1, h2 {
-  color: #7a3b3b;
+  color: #79EB90;
+    font-size: 5.2em;
 }
 
 p {
