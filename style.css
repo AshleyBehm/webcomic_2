@@ -9,6 +9,7 @@ body {
 .favorite-comic {
   text-align: center;
   margin-top: 2em;
+  width: 100%
 }
 
 .featured-comic {
@@ -33,7 +34,6 @@ nav {
 nav a {
   color: #F8B5EB;
   text-decoration: none;
-  margin: 0 15px;
   font-weight: bold;
   font-size: 3em;
 }
@@ -44,11 +44,6 @@ nav a:hover {
   color: #d6e8e6; /* light blue-gray highlight */
 }
 
-main {
-  padding: 4em;
-  max-width: 1000px;
-  margin: auto;
-}
 
 .comic-container {
   display: flex;
@@ -58,8 +53,7 @@ main {
 }
 
 .comic-page {
-  width: 300%;
-  max-width: 700px;
+
   border: 3px solid #7a3b3b;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   border-radius: 6px;
@@ -79,7 +73,7 @@ main {
 
 h1, h2 {
   color: #533a91;
-    font-size: 5.2em;
+/*     font-size: 5.2em; */
 }
 
 p {
@@ -87,3 +81,4 @@ p {
   color: #050947;
   font-size: 30px;
 }
+
